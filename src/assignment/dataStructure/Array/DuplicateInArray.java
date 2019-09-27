@@ -5,13 +5,13 @@ public class DuplicateInArray {
 
 	public static void main(String args[]) {
 		DuplicateInArray duplicateInArray = new DuplicateInArray();
-		int a[] = {1,2,3,4,5,6,6,8,9,3,6,2,7,9,2};
-		duplicateInArray.findDulicate(a);;
+		duplicateInArray.findDulicate();;
 
 	}
 
-	public void findDulicate(int a[]) {
+	public void findDulicate() {
 
+		int a[] = {1,2,2,2,2,4,5,7,8,8};
 		int arr_size = a.length; 
 		int r = arr_size-1;
 		int l = 0; 
