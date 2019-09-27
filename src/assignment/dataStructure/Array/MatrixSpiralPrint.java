@@ -12,11 +12,13 @@ public class MatrixSpiralPrint {
 
 
 	public void printSpiral() {
-		int ar[][] ={ { 1, 2, 3, 4, 5, 6 }, 
-				{ 7, 8, 9, 10, 11, 12 }, 
-				{ 13, 14, 15, 16, 17, 18 },
-				{ 19, 20, 21, 22, 23, 24}}; 
-		int fr= 0,fc=0,lr = 3,lc = 5;
+		int ar[][] ={ { 1, 2, 3, 4 },
+					  { 5, 6, 7, 8 },
+				      { 9, 10, 11, 12 },
+				      { 13, 14, 15, 16 },
+				      { 17, 18, 19, 20 }
+				      }; 
+		int fr= 0,fc=0,lr = 4,lc = 3;
 
 		while(lr+1>fr && lc+1>fc){
 			//Print the first row
